@@ -1,7 +1,7 @@
 # iptables-docker-systemd
 Restart docker service if iptables has been restarted
 
-```bash
+```console
 [Unit]
 Description=IPv4 firewall with iptables
 After=syslog.target docker.service
